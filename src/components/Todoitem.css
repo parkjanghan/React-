@@ -1,0 +1,28 @@
+.Todoitem {
+    display :flex;
+    align-items: center;
+    padding-bottom : 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.Todoitem input {
+    width: 20px;
+}
+
+.Todoitem .content {
+    flex : 1;
+}
+
+.Todoitem .date {
+    color : gray;
+    font-style : 14px;
+}
+
+.Todoitem button {
+    cursor : pointer;
+    color : gray;
+    font-size : 14px;
+    border : none;
+    border-radius : 5px;
+    padding : 5px;
+}
